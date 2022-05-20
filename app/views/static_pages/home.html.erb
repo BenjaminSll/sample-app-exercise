@@ -1,13 +1,15 @@
 <% provide(:title) %>
-<div class="center jumbotron">
-  <h1>Welcome to the Sample App</h1>
+<div class="center jumbotron cta">
+  <div class="cta-text-elements">
+    <h1>Welcome. to. the. Sample App</h1>
 
-  <h2>This is the home page for the
-  <a id="ror-tuto" href="#"> Ruby on Rails Tutorial </a>
-sample application.
-  </h2>
-  <%= link_to "Sign up now!", signup_path, class: "button"%>
-</div>
-<div class="center">
-  <%= link_to image_tag("railslogo", alt: "Rails logo", width: "500"), "#" %>
+    <h2>This is the home page for the
+    <a id="ror-tuto" href="#"> Ruby on Rails Tutorial </a>
+  sample application.
+    </h2>
+  </div>
+  <div class="cta-button-logo">
+    <%= link_to "Sign up now!", signup_path, class: "button"%>
+    <%= link_to image_tag("railslogo", alt: "Rails logo", width: "500"), "#" %>
+  </div>
 </div>
