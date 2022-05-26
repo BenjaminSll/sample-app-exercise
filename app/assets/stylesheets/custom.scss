@@ -1,6 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 
 /* MIXINS, VARIABLES */
 $gray-medium-light: #eaeaea;
@@ -23,7 +23,7 @@ $gray-medium-light: #eaeaea;
 body {
   background-color: rgb(150, 150, 150);
   padding-top: 60px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Prata', serif;
 }
 
 section {
@@ -116,6 +116,13 @@ header > nav > li {
   flex-direction: column;
 }
 
+.rails-logo {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 60%;
+}
+
 /* SIDEBAR FOR USERS */
 aside {
   section.user-info {
@@ -168,7 +175,7 @@ input {
 }
 
 /* BUTTONS */
-.button {
+.signup-button {
   font-size: 1.2em;
   color: #000;
   padding: 20px 60px;
